@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-#if  UNITY_XR_MANAGEMENT
+
 using UnityEngine.Experimental.XR.Interaction;
 using UnityEngine.SpatialTracking;
 
@@ -286,4 +286,4 @@ public class HMDScript : BasePoseProvider
         }
     }
 }
-#endif
+
